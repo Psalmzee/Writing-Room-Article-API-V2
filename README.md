@@ -15,7 +15,7 @@
     <a href="https://github.com/Psalmzee/WeBlog-API/issues">Request Feature</a>
   </p>
 </div>
-# WeBlog
+# WritingRoomArticleApi-V2
 
 ## Writing Room Article API V2
 #### A Backend-API for a website that allows users to post, edit, and delete articles. The website will also allow users to comment on articles, view all articles, and view a specific article. The Article-API was built using Node/Express, and MongoDB
