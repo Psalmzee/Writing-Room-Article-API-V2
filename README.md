@@ -17,8 +17,8 @@
 </div>
 # WeBlog
 
-## Backend NodeJS Second Semester Examination Project
-#### A blogging-API built in partial fulfilment of the Altschool of Engineering focused in Backend Engineering (NodeJS) Second Semester Requirement by <a href="https://www.github.com/psalmzee">psalmzee</a>, a Backend Engineering student at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
+## Writing Room Article API V2
+#### A Backend-API for a website that allows users to post, edit, and delete articles. The website will also allow users to comment on articles, view all articles, and view a specific article. The Article-API was built using Node/Express, and MongoDB
 
 
 ##### Tools/Languages
@@ -34,57 +34,28 @@
 
 ---
 
-<!-- AltSchool Requirements -->
+<!-- Requirements -->
 
 ## Requirements
 
 <details>
 
-<summary> <strong>Requirements for the examination project</strong> </summary>
+<summary> <strong>Requirements</strong> </summary>
 
-- [x] Users should have a first_name, last_name, email, password,
+Requirements:
+● Users should be able to create their own user account and sign in.
+● Users should be able to write and post articles.
+● Users should be able to edit and delete their own articles.
+● Users should be able to comment on other users' articles.
+● The website should display all articles, with the most recently posted articles first.
+● Users should be able to view a specific article in detail with it’s comments.
 
-- [x] A user should be able to sign up and sign in into the blog app
-
-- [x] Use JWT as authentication strategy and expire the token after 1 hour
-
-- [x] A blog can be in two states; draft and published
-
-- [x] Logged in and not logged in users should be able to get a list of published blogs created
-
-- [x] Logged in and not logged in users should be able to to get a published blog
-
-- [x] Logged in users should be able to create a blog.
-
-- [x] When a blog is created, it is in draft state
-
-- [x] The owner of the blog should be able to update the state of the blog to published
-
-- [x] The owner of a blog should be able to edit the blog in draft or published state
-
-- [x] The owner of the blog should be able to delete the blog in draft or published state
-
-- [x] The owner of the blog should be able to get a list of their blogs.
-
-- [x] The endpoint should be paginated
-
-- [x] It should be filterable by state
-
-- [x] Blogs created should have title, description, tags, author, timestamp, state, read_count, reading_time and body.
-
-- [x] The list of blogs endpoint that can be accessed by both logged in and not logged in users should be paginated:
-
-  - [x] default it to 20 blogs per page.
-
-  - [x] It should also be searchable by author, title and tags.
-
-  - [x] It should also be orderable by read_count, reading_time and timestamp
-
-- [x] When a single blog is requested, the api should return the user information (the author) with the blog. The read_count of the blog too should be updated by 1
-
-- [x] Come up with any algorithm for calculating the reading_time of the blog.
-
-- [x] Write tests for all endpoints
+Additional Information:
+● The website should have a clean and user-friendly interface.
+● The website should be responsive and optimized for both desktop and mobile devices.
+● The website should be developed using ReactJS (Frontend devs) or React Native (Mobile devs)
+and Node JS (Backend devs).
+● The code should be well-organized.
 
 ---
 
@@ -102,7 +73,6 @@
 #### Clone this repo
 
 ```sh
-git clone https://github.com/Psalmzee/WeBlog-API.git
 ```
 
 #### Install project dependencies
@@ -111,7 +81,7 @@ git clone https://github.com/Psalmzee/WeBlog-API.git
 npm install
 ```
 
-#### Update .env with [example.env](https://github.com/Psalmzee/WeBlog-API/blob/main/example.env)
+#### Update .env with example.env
 
 #### Run a development server
 
@@ -496,12 +466,8 @@ npm run test
 
 ---
 
-- Project Link: [WeBlog](https://github.com/Psalmzee/WeBlog-API)
-
 ---
 ## PROJECT OWNER
 - NAME: Samson Okeji 
-- ALTSCHOOL EMAIL: engrsamsonokeji@gmail.com
+- EMAIL: engrsamsonokeji@gmail.com
 - TRACK: Backend Engineering (NodeJS)
-
-
